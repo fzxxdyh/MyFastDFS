@@ -1,0 +1,31 @@
+[iotmp@localhost install]$ /usr/bin/fdfs_test /etc/fdfs/client.conf upload /tmp/a.txt
+This is FastDFS client test program v5.11
+
+Copyright (C) 2008, Happy Fish / YuQing
+
+FastDFS may be copied only under the terms of the GNU General
+Public License V3, which may be found in the FastDFS source kit.
+Please visit the FastDFS Home Page http://www.csource.org/
+for more detail.
+
+[2019-05-30 12:58:51] DEBUG - base_path=/home/fastdfs, connect_timeout=30, network_timeout=60, tracker_server_count=1, anti_steal_token=0, anti_steal_secret_key length=0, use_connection_pool=0, g_connection_pool_max_idle_time=3600s, use_storage_id=0, storage server id count: 0
+
+tracker_query_storage_store_list_without_group:
+        server 1. group_name=, ip_addr=10.10.10.2, port=23000
+
+group_name=group1, ip_addr=10.10.10.2, port=23000
+storage_upload_by_filename
+group_name=group1, remote_filename=M00/00/00/CgoKAlzvYwuALUMpAAAAE62Yg7k847.txt
+source ip address: 10.10.10.2
+file timestamp=2019-05-30 12:58:51
+file size=19
+file crc32=2912453561
+example file url: http://10.10.10.2/group1/M00/00/00/CgoKAlzvYwuALUMpAAAAE62Yg7k847.txt
+storage_upload_slave_by_filename
+group_name=group1, remote_filename=M00/00/00/CgoKAlzvYwuALUMpAAAAE62Yg7k847_big.txt
+source ip address: 10.10.10.2
+file timestamp=2019-05-30 12:58:51
+file size=19
+file crc32=2912453561
+example file url: http://10.10.10.2/group1/M00/00/00/CgoKAlzvYwuALUMpAAAAE62Yg7k847_big.txt
+[iotmp@localhost install]$

@@ -1,0 +1,29 @@
+[root@haoyun-2-203 ~]#
+[root@haoyun-2-203 ~]# curl -X POST http://10.7.2.62:7000/upload -F "upFile=@/tmp/a.txt"
+Array
+(
+    [upFile_name] => a.txt
+    [upFile_content_type] => text/plain
+    [upFile_path] => /home/iotmp/base/nginx/nginx_temp/0000000017
+    [upFile_md5] => ef6e62e5e4cbedaa2e91e9b385f03a10
+    [upFile_size] => 16
+)
+Array
+(
+)
+Array
+(
+    [errorcode] => 0
+    [errormsg] =>
+    [file] => Array
+        (
+            [upFile_name] => a.txt
+            [upFile_content_type] => text/plain
+            [upFile_path] => /home/iotmp/base/nginx/nginx_temp/0000000017
+            [upFile_md5] => ef6e62e5e4cbedaa2e91e9b385f03a10
+            [upFile_size] => 16
+        )
+
+    [fileId] => group1/M00/00/15/CgcCPlzuMgaAY_niAAAAEDbVj3A1672042
+)
+[root@haoyun-2-203 ~]#
